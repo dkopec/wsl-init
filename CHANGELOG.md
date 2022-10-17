@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/dkopec/wsl-init/compare/v1.3.0...v1.4.0) (2022-10-17)
+
+
+### Features
+
+* install az-cli ([60767ac](https://github.com/dkopec/wsl-init/commit/60767ac15e86697c1700dc0333ecda6c8877c8d8))
+
 ## [1.3.0](https://github.com/dkopec/wsl-init/compare/v1.2.0...v1.3.0) (2022-10-17)
 
 
