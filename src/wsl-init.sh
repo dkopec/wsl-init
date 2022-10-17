@@ -31,6 +31,8 @@ sudo apt install unzip
 
 # Install az-cli
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+# Authenticate az-cli
+az login
 
 # Install Terraform
 wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg \
