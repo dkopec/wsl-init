@@ -8,7 +8,7 @@ sudo apt-add-repository http://archive.ubuntu.com/ubuntu/
 
 # Update and Upgrade
 sudo apt update \
-&& sudo apt upgrade
+&& sudo apt upgrade -y
 
 # Install github cli https://github.com/cli/cli/blob/trunk/docs/install_linux.md
 type -p curl >/dev/null || sudo apt install curl -y
@@ -26,3 +26,8 @@ sudo apt install unzip
 
 # Install az-cli
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+# Install Terraform
+wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg \
+&& echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list \
+&& sudo apt update && sudo apt install terraform -y
