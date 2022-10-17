@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/dkopec/wsl-init/compare/v1.5.1...v1.5.2) (2022-10-17)
+
+
+### Bug Fixes
+
+* auth az-cli ([bfa1435](https://github.com/dkopec/wsl-init/commit/bfa1435de5679e90539683a73f0d0e28da9d3346))
+
 ## [1.5.1](https://github.com/dkopec/wsl-init/compare/v1.5.0...v1.5.1) (2022-10-17)
 
 
