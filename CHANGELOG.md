@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/dkopec/wsl-init/compare/v1.0.0...v1.1.0) (2022-10-17)
+
+
+### Features
+
+* update, upgrade, install gh-cli ([c606ffb](https://github.com/dkopec/wsl-init/commit/c606ffb66b17bb9de2206e80037591965778da08))
+
 ## 1.0.0 (2022-10-17)
 
 
