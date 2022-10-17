@@ -1,0 +1,50 @@
+---
+# Release Actions
+# Automatically generates Semantic versioned (https://semver.org/) Github releases based on Conventional Commits (https://www.conventionalcommits.org/en/v1.0.0/)
+
+# Documentation:
+# Semantic Release: https://github.com/semantic-release/semantic-release
+#   - Github Plugin: https://github.com/semantic-release/github
+#   - Changelog Plugin: https://github.com/semantic-release/changelog
+#   - Git Plugin: https://github.com/semantic-release/git
+#   - Conventional commits: https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-conventionalcommits
+
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        
+        # Using Node LTS version
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.17.1
+      
+      # Need to install the plugins that aren't bundled.
+      - name: Install Plugins for Semnatic Release
+        run: npm install conventional-changelog-conventionalcommits @semantic-release/exec @semantic-release/changelog @semantic-release/git
+
+      # Have to Update the file so it can be executed in ci, not sure if this is because I created it on a Windows Machine or not.
+      - name: Update Permissions
+        run: chmod +x prepare-release.sh 
+      
+      # Runs semantic release without having to install it, this then looks for the config, we are using .releaserc.json
+      # using json because that is what is readily documented, other formats are possible.
+      - name: Release to GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_AUTHOR_NAME: release-bot
+          GIT_AUTHOR_EMAIL: release-bot@mycompany.com
+          GIT_COMMITTER_NAME: release-bot
+          GIT_COMMITTER_EMAIL: release-bot@mycompany.com
+        run: npx semantic-release
