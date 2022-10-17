@@ -18,6 +18,11 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 && sudo apt update \
 && sudo apt install gh -y
 
+# Auth to Github
+# Maunal via web
+gh auth login -w
+#TODO: Make login pat based
+
 # Install ansible
 sudo apt install ansible ansible-lint -y
 
