@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/dkopec/wsl-init/compare/v1.2.0...v1.3.0) (2022-10-17)
+
+
+### Features
+
+* Install unzip ([d2dbce1](https://github.com/dkopec/wsl-init/commit/d2dbce1708b624aab0929cc73e1eb4407de7e077))
+
 ## [1.2.0](https://github.com/dkopec/wsl-init/compare/v1.1.0...v1.2.0) (2022-10-17)
 
 
