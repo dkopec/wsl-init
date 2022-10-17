@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/dkopec/wsl-init/compare/v1.5.0...v1.5.1) (2022-10-17)
+
+
+### Bug Fixes
+
+* Auth to gh-cli ([19d2261](https://github.com/dkopec/wsl-init/commit/19d22616029099ef64e3ada1790d228492a6aba3))
+
 ## [1.5.0](https://github.com/dkopec/wsl-init/compare/v1.4.0...v1.5.0) (2022-10-17)
 
 
