@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/dkopec/wsl-init/compare/v1.4.0...v1.5.0) (2022-10-17)
+
+
+### Features
+
+* install Terraform ([e6fe388](https://github.com/dkopec/wsl-init/commit/e6fe3884f1a1337e9b8a60ea141ddcbb9fab0d12))
+
 ## [1.4.0](https://github.com/dkopec/wsl-init/compare/v1.3.0...v1.4.0) (2022-10-17)
 
 
