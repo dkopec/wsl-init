@@ -1,3 +1,10 @@
+## 1.0.0 (2022-10-17)
+
+
+### Features
+
+* add ubuntu sources ([a22bf9f](https://github.com/dkopec/wsl-init/commit/a22bf9ffc40f2b6256c2a1b163d366937a65f2a2))
+
 ## [1.0.2](https://github.com/dkopec/repo-template/compare/v1.0.1...v1.0.2) (2022-10-11)
 
 
