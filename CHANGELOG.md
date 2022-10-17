@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/dkopec/wsl-init/compare/v1.1.0...v1.2.0) (2022-10-17)
+
+
+### Features
+
+* install ansible and ansible lint ([1690879](https://github.com/dkopec/wsl-init/commit/169087975e4838653e36597c2dd9eda05f440116))
+
 ## [1.1.0](https://github.com/dkopec/wsl-init/compare/v1.0.0...v1.1.0) (2022-10-17)
 
 
