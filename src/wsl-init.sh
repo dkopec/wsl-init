@@ -20,3 +20,6 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 
 # Install ansible
 sudo apt install ansible ansible-lint -y
+
+# Install unzip
+sudo apt install unzip
