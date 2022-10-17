@@ -23,3 +23,6 @@ sudo apt install ansible ansible-lint -y
 
 # Install unzip
 sudo apt install unzip
+
+# Install az-cli
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
