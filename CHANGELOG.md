@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/dkopec/wsl-init/compare/v1.5.2...v1.6.0) (2022-10-19)
+
+
+### Features
+
+* install java jdk ([ea42d88](https://github.com/dkopec/wsl-init/commit/ea42d88cb9d3941ee80e520c5a82c29559d843d3))
+
 ## [1.5.2](https://github.com/dkopec/wsl-init/compare/v1.5.1...v1.5.2) (2022-10-17)
 
 
