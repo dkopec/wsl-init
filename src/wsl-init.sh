@@ -40,4 +40,4 @@ wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/
 && sudo apt update && sudo apt install terraform -y
 
 # Install java
-sudo apt install openjdk-8-jre-headless
+sudo apt install openjdk-8-jdk
