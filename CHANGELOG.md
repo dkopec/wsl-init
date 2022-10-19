@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/dkopec/wsl-init/compare/v1.6.0...v1.6.1) (2022-10-19)
+
+
+### Bug Fixes
+
+* install jdk not jre ([7546ce8](https://github.com/dkopec/wsl-init/commit/7546ce830f74d0c0324ea4ed988f4513dfe450fd))
+
 ## [1.6.0](https://github.com/dkopec/wsl-init/compare/v1.5.2...v1.6.0) (2022-10-19)
 
 
